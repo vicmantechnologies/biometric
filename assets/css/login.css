@@ -1,0 +1,31 @@
+/* Personalización de la alerta SweetAlert */
+.swal2-popup {
+    background-color: #ffffff;
+    /* Fondo blanco */
+    color: #000000;
+    /* Texto en negro */
+}
+
+.swal2-title {
+    color: #000000;
+    /* Texto en negro para el título */
+}
+
+
+/* Estilos para los iconos */
+#iconContainer i {
+    position: relative;
+}
+
+#iconContainer .fa-check,
+.is-invalid #iconContainer .fa-exclamation {
+    display: none;
+}
+
+.is-invalid #iconContainer .fa-exclamation {
+    display: inline-block;
+}
+
+.is-valid #iconContainer .fa-check {
+    display: inline-block;
+}
